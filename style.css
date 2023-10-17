@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fcfcfc;
+}
+
+.navbar {
+    margin: 15px 0px 0px 0px;
+    background-color: #2a2727;
+    display: flex;
+}
+
+.nav-link a {
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 25px;
+}
+
+.nav-link:hover a {
+    color: #2a2727;
+    background-color: white;
+}
+
+.button-div button {
+    margin: 60px 0px;
+    border: 2px solid #2a2727;
+    border-radius: 10px;
+    padding: 25px 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2a2727;
+    transition: ease;
+    display: flex;
+}
+
+.button-div button:hover {
+    background-color: white;
+    color: #2a2727;
+    transition-timing-function: ease;
+}
+
+footer {
+    position: relative;
+    background: #2a2727;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px 0px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 33.6px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 48px;
+}
+
+.footer-content p {
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer-menu ul {
+    padding-bottom: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.footer-menu ul li a{
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #999;
+}
+
+.footer-bottom {
+    display: block;
+    background: #222;
+    padding: 0px 20px;
+    width: 100%
+}
+
+.footer-bottom-left p {
+    float: left;
+    word-spacing: 4px;
+    text-transform:capitalize;
+}
+
+.footer-bottom-left p a {
+    color: cyan;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom-left p a:hover {
+    color: #01b9b9;
+}
+
+.footer-bottom-right {
+    display: flex;
+    float: right;
+    font-size: 14px;
+    word-spacing: 2px;
+    color: #fff;
+}
+
+.footer-bottom-right p a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.footer-bottom-right p a:hover {
+    color: #999;
+}
+
+@media (max-width:600px) {
+    .navbar {
+        margin: 15px 0px;
+    }
+
+    .nav-link a {
+        display: flex;
+        margin: 0px;
+        font-size: 16px;
+        padding: 20px 25px;
+    }
+
+    .footer-content h3 p div{
+        display: flex;
+        margin-top: 10px 0px;
+        margin-bottom: 15px;
+    }
+
+    .footer-menu ul li {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
